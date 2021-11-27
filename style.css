@@ -54,7 +54,7 @@
   width: 1280px;
   margin: auto;
   padding-top: 150px;
-  height: 500px;
+  height: 250px;
 }
 
 .mainbar-scr > h2 {
@@ -72,7 +72,56 @@
   border-bottom: 1px solid black;
 }
 
-.hi > h2 {
+.hi {
   width: 1280px;
+  height: 30px;
+  margin: auto;
+}
+
+.hi > p {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+
+.hi > p:nth-child(2) {
+  margin-top: 15px;
+}
+
+.hi > p:nth-child(3) {
+  margin-top: 80px;
+  color: gray;
+}
+
+.hi > h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.hi-p {
+  margin-top: 15px;
+  color: gray;
+}
+
+.hi-bot {
+  margin-top: 15px;
+  color: gray;
+}
+
+.hi > h2 {
+  margin-top: 45px;
+  color: gray;
+}
+
+.hi-box2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid blue;
+}
+
+.bottom-1 {
+  width: 1280px;
+  height: 30px;
+  margin-top: 15px;
   margin: auto;
 }
